@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,sum=0;
+    printf("İki farkli sayi giriniz:");
+    scanf("%d %d",&a,&b);
+    if(a<b)
+        for(++a;a<b;++a){
+            if(a%17)
+                sum+=a;
+            else
+                continue;
+        }
+    else
+        for(--a;a>b;--a){
+            if(a%17)
+                sum+=a;
+            else
+                continue;
+        }
+    printf("17'ye bölünmeyen sayilarin toplami:%d",sum);
+}
