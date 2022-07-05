@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int s,b=1;
+    printf("Bİr sayi giriniz:");
+    scanf("%d",&s);
+    printf("Bu sayinin bölenleri:\n");
+    for(b;b<=s;b++)
+        if(s%b)
+            continue;
+        else
+            printf("%d\n",b);
+}
