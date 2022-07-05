@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int k,l,n,m=1;
+    printf("Bir satirda kaç sayi olsun? :");
+    scanf("%d",&k);
+    printf("Kaç satir olsun? :");
+    scanf("%d",&l);
+    n=k;
+    for(l;l>0;l--){
+        for(k=n;k>0;k--){
+            printf("%d ",m);
+            m++;
+        }
+        printf("\n");    
+    }
+}
