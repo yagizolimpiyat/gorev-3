@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float i,j=2,sum=1;
+    for(i=1;j<51;j++)
+        sum+=i/j;
+    printf("%.2f",sum);
+}
